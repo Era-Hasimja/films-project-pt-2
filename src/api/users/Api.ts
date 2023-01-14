@@ -11,7 +11,7 @@ export interface User {
   phone: number;
 }
 
-export interface UsersResponce {
+export interface UsersResponse {
   users: User[];
   total: number;
   skip: number;
